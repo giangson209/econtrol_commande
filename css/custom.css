@@ -1,0 +1,80 @@
+.box-section {
+  margin-bottom: 100px;
+}
+
+.title {
+  margin-bottom: 50px;
+}
+.title h2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.title h2 span {
+  color: #818181;
+}
+
+.choose-radio {
+  position: absolute;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+.choose-radio:checked + label {
+  opacity: 1;
+}
+
+.label-radio {
+  margin: 0 !important;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  padding: 0 0 30px 0;
+  bottom: 0;
+  opacity: 0;
+}
+
+.list-type ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0 -60px;
+  justify-content: center;
+}
+.list-type ul li {
+  padding: 0 60px;
+  flex: 0 0 25%;
+  max-width: 25%;
+  text-align: center;
+}
+
+.item-type {
+  height: 100%;
+  padding: 30px 30px 60px 30px;
+  background: #f7f9f8;
+  border-radius: 20px;
+  line-height: initial;
+  color: #000000;
+  font-weight: 500;
+  position: relative;
+}
+.item-type .icon {
+  margin-bottom: 30px;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item-type .icon img {
+  max-height: 110px;
+}
+.item-type .label-radio {
+  padding: 0 0 20px 0;
+}
+
+/*# sourceMappingURL=custom.css.map */
